@@ -15,7 +15,7 @@ Scenario inspired from this blog post: [Set up a home site in SharePoint Online]
 ```powershell
 
 # SharePoint tenant admin site collection url
-$adminSiteUrl = "https://<tenant>-admin.sharepoint.com"
+$adminSiteUrl = "https://blkbridge-admin.sharepoint.com"
 
 # Communication site collection url
 $commSiteUrl = "https://<tenant>.sharepoint.com/communicationsite"
@@ -35,7 +35,7 @@ Set-SPOHomeSite -HomeSiteUrl $commSiteUrl
 ```powershell
 
 # SharePoint tenant admin site collection url
-$adminSiteUrl = "https://<tenant>-admin.sharepoint.com"
+$adminSiteUrl = "https://blkbridge-admin.sharepoint.com"
 
 # Communication site collection url
 $commSiteUrl = "https://<tenant>.sharepoint.com/communicationsite"

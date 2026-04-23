@@ -15,7 +15,7 @@ More about list template
 [CmdletBinding()] 
     Param(
     [Parameter(Mandatory=$false,  Position=0)]
-    [String]$adminSiteUrl = "https://<tenant>-admin.sharepoint.com",
+    [String]$adminSiteUrl = "https://blkbridge-admin.sharepoint.com",
     [Parameter(Mandatory=$false,  Position=1)]
     [String]$siteUrl =  "https://<tenant>.sharepoint.com/sites/investment",
     [Parameter(Mandatory=$false,  Position=2)]

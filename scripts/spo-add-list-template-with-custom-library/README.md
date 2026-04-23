@@ -17,7 +17,7 @@ More about list template
 Import-Module Microsoft.Online.SharePoint.PowerShell
 ###### Declare and Initialize Variables ######  
 #SharePoint Admin site
-$adminSiteUrl = "https://<tenant>-admin.sharepoint.com"
+$adminSiteUrl = "https://blkbridge-admin.sharepoint.com"
 
 #Destination site collection url
 $url="https://<tenant>.sharepoint.com/sites/sitename"
